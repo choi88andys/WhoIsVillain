@@ -1,7 +1,21 @@
-## Who Is Villain App Usage Information
-https://choiandys.notion.site/Who-Is-Villain-Usage-Information-bec352472ffb41b9ab1369c825772be0
+# Who Is Villain (범인은 바로 너!)
 
-<br/>
+Andygile's first app: a player clock for turn-based board games.
+Up to six players, a time limit for each, and a scoreboard of who ran out the clock.
 
-## 범인은 바로 너! 앱 이용정보
-https://choiandys.notion.site/374b137369634a8bb37adc5fc4e30bc4
+- Released on the App Store in December 2021, retired in 2026.
+- SwiftUI, iOS 15 or later, Google Mobile Ads with UMP consent.
+- This repository is archived and no longer maintained.
+
+## Links
+
+- About the app: https://andygile.com/whoisvillain/
+- Privacy policy and terms: https://andygile.com/whoisvillain/legal/
+- 개인정보 처리방침 및 이용약관: https://andygile.com/whoisvillain/legal/ko/
+
+## Known issue
+
+The age question is inverted. Answering "yes, 17 or older" tags ad requests
+as under the age of consent, and "no" tags them as adults
+(`ContentView.swift`, `BannerView.swift`). It was not fixed before the app
+was retired.
